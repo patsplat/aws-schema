@@ -1,0 +1,21 @@
+{
+    "name": "patsplat/awschema",
+    "description": "CreateIfNotExists AWS Resources",
+    "require": {
+        "aws/aws-sdk-php": "~2.8"
+    },
+    "authors": [
+        {
+            "name": "Patrick Way",
+            "email": "patrick@reflexionsdata.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "patsplat\\awschema\\": "src"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.6"
+    }
+}
