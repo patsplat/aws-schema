@@ -1,5 +1,17 @@
 # AWS Schema
 
+```php
+require 'vendor/autoload.php';
+
+use patsplat\awschema\AWSchema;
+
+# same signature as Aws::factory
+$aws = new AWSchema(array(
+    'profile' => 'my_profile',
+    'region'  => 'us-east-1',
+));
+```
+
 ## CreateIfNotExists
 
 ## DropIfExists
