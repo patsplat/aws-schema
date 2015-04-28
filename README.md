@@ -64,7 +64,7 @@ Not yet.
 
 ### CodeDeploy
 
-* [Application](http://docs.aws.amazon.com/aws-sdk-php/v2/api/class-Aws.CodeDeploy.CodeDeployClient.html#_createApplication]
+* [Application](http://docs.aws.amazon.com/aws-sdk-php/v2/api/class-Aws.CodeDeploy.CodeDeployClient.html#_createApplication)
 * [Deployment](http://docs.aws.amazon.com/aws-sdk-php/v2/api/class-Aws.CodeDeploy.CodeDeployClient.html#_createDeployment)
 * [DeploymentConfig](http://docs.aws.amazon.com/aws-sdk-php/v2/api/class-Aws.CodeDeploy.CodeDeployClient.html#_createDeploymentConfig)
 * [DeploymentGroup](http://docs.aws.amazon.com/aws-sdk-php/v2/api/class-Aws.CodeDeploy.CodeDeployClient.html#_createDeploymentGroup)
