@@ -1,4 +1,9 @@
-# AWS Schema
+# AWSchema
+
+AWSchema decorates the AWS PHP SDK with useful methods.
+
+AWS applications often involve a wider collection of services than what is supported by CloudFormation alone.  The initial focus is to add "createENTITYIfNotExists" and "ddeleteENTITYIfExists" methods.  Pull requests for any other functionality which improves the maintenance and migration of AWS clusters will be entertained.
+
 
 ```php
 require 'vendor/autoload.php';
@@ -12,13 +17,11 @@ $aws = new AWSchema(array(
 ));
 ```
 
-## CreateIfNotExists
-
-## DropIfExists
-
 ## Supported Services
 
-## Unsupported Services (aka TODO)
+Not yet.
+
+## TODO (aka Unsupported Services)
 
 ### AutoScaling
 

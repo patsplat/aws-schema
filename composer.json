@@ -2,7 +2,8 @@
     "name": "patsplat/awschema",
     "description": "CreateIfNotExists AWS Resources",
     "require": {
-        "aws/aws-sdk-php": "~2.8"
+        "aws/aws-sdk-php": "~2.8",
+        "koine/decorator": "dev-master"
     },
     "authors": [
         {
