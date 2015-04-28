@@ -4,7 +4,7 @@ AWSchema decorates the AWS PHP SDK with useful methods.
 
 AWS applications often involve a wider collection of services than what is supported by CloudFormation alone.  The initial focus is to add "createENTITYIfNotExists" and "deleteENTITYIfExists" methods.
 
-Any Pull Request which improves the maintenance and migration of AWS clusters will be entertained.
+Any pull request which improves the maintenance and migration of AWS clusters will be entertained.
 
 
 ```php
